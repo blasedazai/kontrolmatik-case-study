@@ -1,0 +1,19 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-02 .c-item .c-item-01 {
+    display: flex;
+    justify-content: center;
+    top: 79px;
+    padding: 85px 0 0 0;
+    height: 450px;
+    background-color: white;
+  }
+  .section-02 .c-item .c-item-01 .c-item-01-A {
+    margin: 0 12px;
+    height: 312px;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+}/*# sourceMappingURL=Section02.css.map */

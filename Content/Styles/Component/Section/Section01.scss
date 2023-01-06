@@ -1,0 +1,78 @@
+@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .section-01 {
+    .c-wrapper {
+      .b-item {
+        .b-item-01 {
+          .b-item-01-A {
+            .b-item-01-B {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+  .section-01 {
+    .c-wrapper {
+      .b-item {
+        .b-item-01 {
+          .b-item-01-A {
+            .b-item-01-B {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+  .section-01 {
+    .b-item {
+      display: flex;
+      .b-item-01 {
+        flex: 1;
+        top: 116px;
+        width: 716px;
+        height: 440px;
+        background-color: white;
+        position: relative;
+        padding: 40px 89px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .b-item-01-A {
+          width: calc(50% - 12px);
+          height: auto;
+          display: flex;
+          align-items: center;
+          transition: 0.5s;
+          .b-item-01-B {
+            font-weight: 500;
+            font-size: 1em;
+            color: #292929;
+            letter-spacing: -0.01em;
+            &:hover {
+              color: red;
+              transform: translateX(10px);
+              transition: 0.5s;
+            }
+          }
+        }
+      }
+    }
+    .b-item-02 {
+      top: 116px;
+      width: 716px;
+      height: 440px;
+      object-fit: cover;
+      position: relative;
+    }
+  }
+}

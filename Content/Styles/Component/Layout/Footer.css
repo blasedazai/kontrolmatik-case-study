@@ -1,0 +1,13 @@
+/* Common xs1, xs2 mobil*/
+@media all and (max-width: 767px) {
+  .footer-01 {
+    padding: 32px 0;
+  }
+}
+/* Common sm1, sm2 tablet */
+/* Common  md, lg, xl, xxl desktop*/
+@media all and (min-width: 1320px) {
+  .footer-01 {
+    padding: 80px 0;
+  }
+}/*# sourceMappingURL=Footer.css.map */

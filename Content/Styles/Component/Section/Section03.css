@@ -1,0 +1,42 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-03 .d-item {
+    display: flex;
+  }
+  .section-03 .d-item .d-item-01 {
+    flex: 1;
+    top: 116px;
+    width: 716px;
+    height: 440px;
+    background-color: white;
+    position: relative;
+  }
+  .section-03 .d-item .d-item-01 .d-item-01-A {
+    padding: 50px 100px;
+  }
+  .section-03 .d-item .d-item-01 .d-item-01-A .d-item-01-B {
+    margin-bottom: 12px;
+  }
+  .section-03 .d-item .d-item-01 .d-item-01-A .d-item-01-B .d-item-01-C {
+    font-weight: 500;
+    font-size: 1em;
+    color: #292929;
+    letter-spacing: -0.01em;
+    transition: color 0.3s;
+    transition: 0.5s;
+  }
+  .section-03 .d-item .d-item-01 .d-item-01-A .d-item-01-B .d-item-01-C:hover {
+    color: red;
+  }
+  .section-03 .d-item .d-item-01 .d-item-01-A .d-item-01-B:hover {
+    transition: 0.5s;
+    transform: translateX(10px);
+  }
+  .section-03 .d-item .d-item-02 {
+    justify-content: left;
+    top: 116px;
+    width: 716px;
+    height: 440px;
+  }
+}/*# sourceMappingURL=Section03.css.map */

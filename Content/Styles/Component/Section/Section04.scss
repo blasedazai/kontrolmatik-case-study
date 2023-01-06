@@ -1,0 +1,59 @@
+@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .section-04 {
+    .c-wrapper {
+    }
+  }
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+  .section-04 {
+    .c-wrapper {
+    }
+  }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+  .section-04 {
+    .e-item {
+      display: flex;
+      .e-item-01 {
+        top: 116px;
+        width: 716px;
+        height: 440px;
+      }
+      .e-item-02 {
+        flex: 1;
+        top: 116px;
+        padding: 40px 100px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .e-item-02-A {
+          height: 20px;
+          margin-bottom: 20px;
+          .e-item-02-B {
+            font-weight: 500;
+            font-size: 1em;
+            color: #292929;
+            letter-spacing: -0.01em;
+            transition: color 0.3s;
+            transition: 0.5s;
+            &:hover {
+              transition: 0.5s;
+              color: red;
+            }
+          }
+          &:hover {
+            transition: 0.5s;
+            transform: translateX(10px);
+          }
+        }
+      }
+    }
+  }
+}

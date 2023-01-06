@@ -1,0 +1,47 @@
+/* Common xs1, xs2 mobil*/
+/* Common  md, lg, xl, xxl desktop*/
+@media all and (min-width: 1320px) {
+  .header-01 .c-wrapper {
+    position: fixed;
+    z-index: 25;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    min-height: 116px;
+    padding: 0 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #f5f5f5;
+    transition: background-color 0.2s;
+  }
+  .header-01 .c-wrapper .logo {
+    margin-right: 48px;
+  }
+  .header-01 .c-wrapper .a-item {
+    display: block;
+    position: static;
+    flex: 1;
+  }
+  .header-01 .c-wrapper .a-item li:nth-child(3) {
+    margin-left: auto;
+  }
+  .header-01 .c-wrapper .a-item .a-item-01 {
+    position: static;
+    display: flex;
+  }
+  .header-01 .c-wrapper .a-item .a-item-01 .a-item-01-A {
+    display: flex;
+  }
+  .header-01 .c-wrapper .a-item .a-item-01 .a-item-01-A .a-item-01-B {
+    padding: 12px 35px 12px 16px;
+    font-size: 0.9375em;
+    color: #141414;
+    line-height: 16px;
+  }
+  .header-01 .c-wrapper .a-item .a-item-01 .a-item-01-A .a-item-01-B:hover {
+    background-color: lightgray;
+    color: red;
+    border: 0.5px solid gray;
+    border-radius: 25px;
+  }
+}/*# sourceMappingURL=Header.css.map */
